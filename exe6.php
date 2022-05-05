@@ -10,7 +10,7 @@ if ($s1 < 500){
    $aju2 = (($s1 / 100) * 10  + $s1);
    echo "O salário é $aju2";
 
-} elseif ($s1 > 1000){
+} else {
    $aju3 = (($s1 / 100) * 5 + $s1);
    echo "O salário é $aju3";
 
