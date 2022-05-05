@@ -13,7 +13,7 @@ if($total < 18.5){
 } elseif (($total >= 25) and ($total < 30)){
     echo "Sobrepeso";
 
-} elseif ($total >= 30) {
+} else {
     echo "Obesidade";
 }
 
